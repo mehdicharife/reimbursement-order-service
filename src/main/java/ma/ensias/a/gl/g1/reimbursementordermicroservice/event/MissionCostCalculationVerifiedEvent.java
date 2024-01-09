@@ -8,6 +8,8 @@ public class MissionCostCalculationVerifiedEvent {
 
     private Long professorId;
 
+    private Double sum;
+
 
     public MissionCostCalculationVerifiedEvent() {
     }
@@ -43,6 +45,15 @@ public class MissionCostCalculationVerifiedEvent {
 
     public void setProfessorId(Long professorId) {
         this.professorId = professorId;
+    }
+
+
+    public Double getSum() {
+        return this.sum;
+    }
+
+    public void setSum(Double sum) {
+        this.sum = sum;
     }
 
 }

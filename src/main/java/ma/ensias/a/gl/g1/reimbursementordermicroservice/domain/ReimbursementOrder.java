@@ -19,6 +19,8 @@ public class ReimbursementOrder {
 
     private Double sum;
 
+    private String fileName;
+
     public Long getId() {
         return this.id;
     }
@@ -49,6 +51,14 @@ public class ReimbursementOrder {
 
     public void setSum(Double sum) {
         this.sum = sum;
+    }
+
+    public String getFileName() {
+        return this.fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
     }
 
 }
